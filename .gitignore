@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# pipenv
+.Pipfile*
+
 # C extensions
 *.so
 
