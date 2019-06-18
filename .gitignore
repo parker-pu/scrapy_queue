@@ -3,11 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-.idea/
+idea/
 
 # pipenv
-.Pipfile
-.Pipfile.*
+Pipfile
+Pipfile.*
+*.lock
 
 # C extensions
 *.so
