@@ -1,7 +1,7 @@
-scrapy-queue
+scrapy_queue
 ==================
 
-``scrapy-queue`` scrapy-redis is a similar library
+``scrapy_queue`` scrapy-redis is a similar library
 
 Installation
 ------------
@@ -11,18 +11,18 @@ Installation
 
    Build status
 
-``scrapy-queue`` is hosted on
-`PyPI <http://pypi.python.org/pypi/scrapy-queue/>`__ and can be installed
+``scrapy_queue`` is hosted on
+`PyPI <http://pypi.python.org/pypi/scrapy_queue/>`__ and can be installed
 as such:
 
 ::
 
-    pip install git+git://github.com/parker-pu/scrapy-queue.git
+    pip install git+git://github.com/parker-pu/scrapy_queue.git
 
 Alternatively, you can also get the latest source code from
 Github_ and install it manually.
 
-.. _Github: https://github.com/parker-pu/scrapy-queue
+.. _Github: https://github.com/parker-pu/scrapy_queue
 
 Usage
 -----
