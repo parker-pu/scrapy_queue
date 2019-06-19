@@ -50,13 +50,6 @@ For example:
 
     pass
 
-Running Tests
--------------
-
-::
-
-    python -m unittest discover
-
 Changelog
 ---------
 
