@@ -2,10 +2,9 @@
 """
 这个类的作用是操作 redis
 """
-import redis
 import logging
 
-from redis import WatchError
+from scrapy_queue.redis import WatchError
 
 logger = logging.getLogger(__name__)
 

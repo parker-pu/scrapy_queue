@@ -8,7 +8,7 @@ import logging
 import mmh3
 import math
 
-from scrapy_queue import connection, defaults
+from scrapy_queue import defaults, connection
 
 logger = logging.getLogger(__name__)
 

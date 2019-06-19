@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # For standalone use.
-from .filter.redis_hash import RedisHashFilter
-from .redis import RedisServer
+from scrapy_queue.filter.redis_hash import RedisHashFilter
+from scrapy_queue.redis import RedisServer
 
 FILTER_CLS = RedisHashFilter
 REDIS_CLS = RedisServer

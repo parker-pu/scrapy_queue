@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 from scrapy.utils.serialize import ScrapyJSONEncoder
 
-from .defaults import FILTER_CLS
-from .utils import get_network, get_index_arr
-from .queue import RedisQueue
+from scrapy_queue.defaults import FILTER_CLS
+from scrapy_queue.utils import get_network, get_index_arr
+from scrapy_queue.queue import RedisQueue
 import logging
 
 logger = logging.getLogger(__name__)

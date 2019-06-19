@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='scrapy_queue',
-    version='1.0.0',
+    version='0.1.0',
     description=(
         '这个项目是仿照 scrapy-redis 的一个包，用于构建分布式 scrapy 爬虫'
     ),

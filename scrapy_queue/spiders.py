@@ -4,9 +4,9 @@ from scrapy import signals
 from scrapy.exceptions import DontCloseSpider
 from scrapy.spiders import Spider, CrawlSpider
 
-from .queue import RedisQueue
-from . import defaults
-from .utils import bytes_to_str, get_network
+from scrapy_queue.queue import RedisQueue
+from scrapy_queue import defaults
+from scrapy_queue.utils import bytes_to_str, get_network
 import logging
 
 logger = logging.getLogger(__name__)
