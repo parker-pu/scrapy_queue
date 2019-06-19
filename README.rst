@@ -17,7 +17,7 @@ as such:
 
 ::
 
-    pip install scrapy-queue
+    pip install git+git://github.com/parker-pu/scrapy-queue.git
 
 Alternatively, you can also get the latest source code from
 Github_ and install it manually.
